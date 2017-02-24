@@ -1,0 +1,380 @@
+body {
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+}
+
+a#api {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a#api:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 45px;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+}
+
+p {
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+.dark-overlay {
+	background-color: rgba(0, 0, 0, .65);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -1500;
+}
+
+.inline,
+.right,
+.center,
+.left {
+	display: inline-block;
+	vertical-align: top;
+	transition: all .5s ease;
+}
+
+.top {
+	position: fixed;
+	margin: 25px;
+}
+
+.bottom {
+	position: fixed;
+	bottom: 0;
+	margin: 25px;
+	transition: all .5s ease;
+}
+
+.pm-holder {
+	padding: 8px 8px 4px 8px;
+	background-color: rgba(255, 255, 255, .15);
+	width: auto;
+	height: auto;
+	transition: all .2s ease;
+}
+
+.inline p {
+	margin-top: 1px;
+}
+
+.loading-strip {
+	background-color: rgba(255, 255, 255, .15);
+	position: fixed;
+	bottom: 0;
+	padding: 0;
+	width: 100%;
+	height: 4px;
+	transition: all .5s ease;
+}
+
+.loading-bar {
+	background-color: rgba(255, 0, 0, .9);
+	width: 35%;
+	height: 4px;
+	transition: all .5s ease;
+}
+
+img.border {
+	border: 1px solid rgba(255, 255, 255, .2);
+}
+
+#info p {
+	margin-bottom: 6px;
+}
+
+.rulesnum,
+.cboxnum {
+	padding: 8px 10px;
+	border-right: 1px solid rgba(255, 255, 255, .2);
+}
+
+#staff {
+	height: 30px;
+	width: 30px;
+	padding: 0;
+}
+
+p.staff {
+	font-size: 16px;
+	margin: 0;
+	line-height: 1.2em;
+	text-align: left;
+	font-weight: 300;
+}
+
+#about {
+	width: 330px;
+	margin-top: 25px;
+}
+
+p#aboutp {
+	font-size: 16px;
+	line-height: 1.2em;
+	font-weight: 300;
+}
+
+#cbox {
+	width: 346px;
+	margin-top: 25px;
+	padding: 0;
+}
+
+.stafftext,
+.cboxtext {
+	padding-left: 8px;
+}
+
+#info {
+	position: fixed;
+	top: 25px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+#staffmod {
+	position: fixed;
+	top: 30px;
+	right: 25px;
+	text-align: center;
+}
+
+#staffhold {
+	width: 346px;
+	padding: 0;
+}
+
+#userinfo,
+#serverinfo {
+	padding-left: 5px;
+}
+
+#userinfo p,
+#serverinfo p {
+	font-size: 18px;
+	padding-top: 6px;
+}
+
+.admin {
+	padding: 20px;
+	width: 688px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .4);
+	margin: 20px auto;
+}
+
+.admin .lefta {
+	display: inline-block;
+	width: 460px;
+	margin-right: 10px;
+}
+
+.admin .lefta {
+	display: inline-block;
+	width: 460px;
+	margin-right: 10px;
+}
+
+input[type="password"],
+input[type="text"] {
+	display: block;
+	padding: 8px;
+	background-color: rgba(255, 255, 255, .2);
+	border: 1px solid rgba(255, 255, 255, .5);
+	color: #FFF;
+	outline: none;
+	font-size: 15px;
+	margin: 6px 0;
+}
+
+input#mleft {
+	margin-left: 6px;
+}
+
+button,
+input[type="submit"] {
+	background-color: #CCC;
+	color: #222;
+	border: 0;
+	outline: 0;
+	transition: all .4s ease;
+	padding: 6px;
+	margin: 6px 0;
+}
+
+button {
+	margin-left: 10px;
+	color: rgb(200, 0, 0);
+}
+
+button:hover,
+input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #FFF;
+	color: #000;
+}
+
+button:hover {
+	color: rgb(240, 0, 0);
+}
+
+textarea {
+	display: block;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	padding: 8px;
+	background-color: rgba(255, 255, 255, .2);
+	border: 1px solid rgba(255, 255, 255, .5);
+	color: #FFF;
+	outline: none;
+	font-size: 15px;
+	height: 150px;
+	line-height: 1.5em;
+	font-family: sans-serif;
+	resize: none;
+	width: 380px;
+}
+
+input#apit {
+	width: 380px;
+}
+
+.admin .righta {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	margin-left: 10px;
+}
+
+.admin .lefta hr {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.block {
+	display: block;
+}
+
+.block .inline {
+	display: inline-block;
+	width: 180px;
+	margin-right: 1px;
+}
+
+.righta table tr td p,
+.lefta p {
+	font-size: 18px;
+}
+
+.righta table tr td p small,
+.lefta p small {
+	font-size: 14px;
+	color: #DDD;
+}
+
+.righta table tr td p {
+	font-weight: 500;
+	color: #FFF !important;
+}
+
+.righta table tr td {
+	font-size: 16px;
+	color: #DDD;
+}
+
+.mid {
+	width: 75%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	height: 1px;
+	text-align: center;
+	margin: auto;
+}
+				
+.mid a {
+	padding: 75px 40px;
+	font-size: 180%;
+	width: 40%;
+	background-color: rgba(255, 255, 255, .1);
+	transition: all .5s ease-in-out;
+	color: #CCC;
+	border: 1px solid #555;
+	text-decoration: none;
+	margin: 20px;
+}
+			
+.mid a:hover {
+	background-color: rgba(255, 255, 255, .2);
+	color: #FFF;
+}
+
+#welcome strong {
+	font-weight: 400;
+}
+
+@media screen and (max-width: 1450px) {
+	.mid a {
+		padding: 45px 30px;
+		font-size: 150%;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.mid a {
+		padding: 35px 20px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.mid a {
+		padding: 20px 15px;
+		font-size: 125%;
+	}
+}
+
+@media screen and (max-width: 2600px) {
+	#staffmod {
+		right: 250px;
+		transition: all .5s ease;
+	}
+	
+	#left,
+	.left {
+		margin-left: 230px;
+		transition: all .5s ease;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	#staffmod {
+		right: 25px;
+		transition: all .5s ease;
+	}
+	
+	#left,
+	.left {
+		margin-left: 0;
+		transition: all .5s ease;
+	}
+}
